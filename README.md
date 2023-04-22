@@ -1,5 +1,5 @@
 
-1. run install.sh
+1. run `./install.sh`
 2. copy `etc/*/*.yml` to their respective locations
 3. copy `certs/elastic1.evermight.net/*` to `/etc/elasticsearch/certs/elastic1.evermight.net/`
 4. run `chown -R elasticsearch:elasticsearch /etc/elasticsearch`
