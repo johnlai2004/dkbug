@@ -102,7 +102,7 @@ xpack.security.enrollment.enabled: true
 # Enable encryption for HTTP API client connections, such as Kibana, Logstash, and Agents
 xpack.security.http.ssl:
   enabled: true
-  key: certs/elastic1.everimght.net/privkey1.pem
+  key: certs/elastic1.evermight.net/privkey1.pem
   certificate: certs/elastic1.evermight.net/fullchain1.pem
 
 # Enable encryption and mutual authentication between cluster nodes

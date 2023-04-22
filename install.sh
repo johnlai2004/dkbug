@@ -17,7 +17,7 @@ apt-get install -y metricbeat;
 mkdir -p /srv/elk/elastic
 chown -R elasticsearch:elasticsearch /srv/elk/elastic
 
-mkdir -p /etc/elasticsearch/certs/domain.net
+mkdir -p /etc/elasticsearch/certs/elastic1.evermight.net
 chown -R elasticsearch:elasticsearch /etc/elasticsearch/certs/elastic1.evermight.net
 
 echo '127.0.0.1 elastic1.evermight.net' >> /etc/hosts
